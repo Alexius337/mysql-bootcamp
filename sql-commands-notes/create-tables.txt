@@ -52,3 +52,12 @@ SHOW COLUMNS FROM tablename;
  
 More simple command to view a table's columns:
 DESC tablename;
+
+
+Dropping Tables:
+DROP TABLE <tablename>; 
+
+A specific example:
+DROP TABLE cats; 
+
+Be careful with this command!
