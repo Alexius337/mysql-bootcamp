@@ -32,13 +32,23 @@ USE dog_walking_app;
 Selecting a database:
 SELECT database();
 
+Creating a table:
 CREATE TABLE tablename
   (
     column_name data_type,
     column_name data_type
   );
+
+  Creating a table example:
 CREATE TABLE cats
   (
     name VARCHAR(100),
     age INT
   );
+
+Viewing the table we just created:
+SHOW TABLES;
+SHOW COLUMNS FROM tablename;
+ 
+More simple command to view a table's columns:
+DESC tablename;

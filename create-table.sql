@@ -5,3 +5,6 @@ CREATE TABLE cats
 		name VARCHAR(100),
         age int
 	);
+SHOW TABLES;
+SHOW COLUMNS FROM cats;
+DESC cats;
