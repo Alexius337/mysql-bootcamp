@@ -14,6 +14,5 @@ VALUES ('Jetson', 7);
 INSERT INTO cats(name, age)
 VALUES ('Victoria', 12);
 
-DESC cats;
-SHOW COLUMNS FROM cats;
+SELECT * FROM cats;
 
