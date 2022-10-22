@@ -20,3 +20,9 @@ VALUES (value, value),
        (value, value), 
        (value, value);
 
+How to insert a string (VARCHAR) value that contains quotations:
+Escape the quotes with a backslash: 
+"This text has \"quotes\" in it" or 'This text has \'quotes\' in it'
+
+Alternate single and double quotes: 
+"This text has 'quotes' in it" or 'This text has "quotes" in it'
