@@ -14,5 +14,9 @@ VALUES ('Jetson', 7);
 INSERT INTO cats(name, age)
 VALUES ('Victoria', 12);
 
-SELECT * FROM cats;
+INSERT INTO cats(name, age)
+VALUES ('Charlie', 10),
+		('Sadie', 3),
+        ('Lazy Bear', 1);
 
+SELECT * FROM cats;

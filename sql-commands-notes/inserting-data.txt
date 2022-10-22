@@ -12,3 +12,11 @@ INSERT INTO cats(name, age) VALUES ('Jetson', 7);
 View the inserted data:
 SELECT * FROM cats;
 
+Multiple inserts:
+INSERT INTO table_name 
+      (column_name, 
+       column_name) 
+VALUES (value, value), 
+       (value, value), 
+       (value, value);
+
